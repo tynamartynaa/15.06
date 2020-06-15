@@ -3,3 +3,22 @@ function onClick(event){
     console.log('Nastąpiło click', event);
 }
 element.addEventListener('click', onClick);
+
+HTML:
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Document</title>
+
+</head>
+<body>
+<div>element</div>
+<div class="elem">elemento</div>
+<div id= "element">elemencik</div>
+<div id="user" data-id="1234567890" data-user="johndoe" data-date-of-birth>John Doe</div></div>
+<script src="./main.js"></script>
+
+</body>
+</html>
